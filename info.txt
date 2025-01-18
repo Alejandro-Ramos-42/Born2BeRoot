@@ -1,4 +1,9 @@
 //dpkg --get-selections | grep -E 'gnome|kde|xorg|xserver'
+//sudo apt-get purge gnome gnome-shell gnome-session xserver-xorg
+//sudo apt-get purge task-gnome-desktop
+//sudo apt-get autoremove --purge
+//sudo apt-get clean
+//reboot
 chrome-gnome-shell				install
 gir1.2-gnomebluetooth-3.0:amd64			install
 gir1.2-gnomedesktop-3.0:amd64			install
