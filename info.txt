@@ -1,3 +1,4 @@
+//dpkg --get-selections | grep -E 'gnome|kde|xorg|xserver'
 chrome-gnome-shell				install
 gir1.2-gnomebluetooth-3.0:amd64			install
 gir1.2-gnomedesktop-3.0:amd64			install
